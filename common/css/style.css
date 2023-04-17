@@ -29243,3 +29243,78 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
 
 }
 
+/*----------------------------------------*/
+
+.s11_d1{
+    position: absolute;
+    bottom: 259px;
+    left: 104px;
+}
+
+.s11_d1 .s11_d1i1{
+    position: absolute;
+    height: 181px;
+    bottom: -290px;
+}
+
+.s11_d1 .s11_d1i2{
+    position: absolute;
+    height: 24px;
+    bottom: -311px;
+    left: -13px;
+}
+
+.s11_d2{
+    position: absolute;
+    z-index: 2;
+    bottom: 194px;
+    right: 492px;
+}
+
+.s11_d2 .s11_d2i1{
+    height: 231px;
+    position: absolute;
+}
+
+.s11_d2 .s11_d2i2{
+    position: absolute;
+    bottom: -248px;
+    height: 26px;
+    right: -256px;
+}
+
+.s11_d3{
+    position: absolute;
+    right: 284px;
+    bottom: 259px;
+}
+
+.s11_d3 .s11_d3i1{
+    position: absolute;
+    height: 181px;
+    bottom: -290px;
+}
+
+.s11_d3 .s11_d3i2{
+    position: absolute;
+    height: 24px;
+    bottom: -311px;
+    left: -13px;
+}
+
+.top_title_him{
+    margin-top: 42px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    color: #10394f;
+}
+
+.s11_ul{
+    position: absolute;
+    width: 421px;
+    top: 113px;
+    right: 167px;
+}
+
