@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="common/css/animate.css" />
     <link rel="stylesheet" href="common/css/docs.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="common/css/wickedcss.min.css">
     <!-- SCORM FILES -->   
     <script type='text/javascript' src='common/js/scorm/scofunctions.js'></script> 
     <script type='text/javascript' src='common/js/scorm/Aicc.js'></script>
@@ -26,14 +27,23 @@
     <script type="text/javascript">
         
     </script>
-    <script> 
-                    $(document).ready(function(){
-                        $(".hdide").hide();
-                        $(".ttest").delay(1000).fadeIn();
-                        $(".ttest").delay(1000).fadeOut();
-                        $(".hdide").show();
-                    });
-                </script>
+
+    <script>
+        $(window).scroll(function(){
+        var wh = $(window).height()-50;
+        if($(window).scrollTop() > $('.hhtest').offset().top-wh){
+            $('.hhtest').addClass('zoomer');
+        }
+        if($(window).scrollTop() > $('.hhtest1').offset().top-wh){
+            $('.hhtest1').addClass('slideDown');
+            $('.hhtest1').delay(6000).fadeOut();
+            $('.whdi').delay(6000).fadeIn();
+        }
+});
+    </script>
+
+
+    
     <style>
         .startAnim{
             animation-name: stretch; 

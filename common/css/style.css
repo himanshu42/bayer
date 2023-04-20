@@ -29343,6 +29343,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     height: 441px;
     left: -158px;
     animation-delay: 7s !important;
+    z-index: 2;
 }
 
 .slide_26i2{
@@ -29351,6 +29352,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     left: 470px;
     height: 69px;
     animation-delay: 6s !important;
+    z-index: 2;
 }
 
 .slide_26i3{
@@ -29359,6 +29361,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     height: 69px;
     left: 327px;
     animation-delay: 5s !important;
+    z-index: 2;
 }
 
 .slide_26i4{
@@ -29367,6 +29370,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     left: 185px;
     height: 67px;
     animation-delay: 4s !important;
+    z-index: 2;
 }
 
 .slide_26i5{
@@ -29375,6 +29379,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     bottom: 75px;
     left: 37px;
     animation-delay: 3s !important;
+    z-index: 2;
 }
 
 .slide_26i6{
@@ -29383,6 +29388,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     left: -127px;
     height: 139px;
     animation-delay: 2s !important;
+    z-index: 2;
 }
 
 .slide_26i7{
@@ -29391,6 +29397,7 @@ margin: 0px; padding: 0px; padding-bottom: 5px;
     bottom: -32px;
     height: 451px;
     animation-delay: 1s !important;
+    z-index: 2;
 }
 
 
