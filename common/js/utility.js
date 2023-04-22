@@ -1182,7 +1182,7 @@ var utility = {
                         // },500);
                     }
 
-                    if(index == 17) {    
+                    if(index == 18) {    
                         utility.section17_timeOut = setTimeout(function(){                   
                             // $(".section_17 .screen1").addClass("screenHide");
                             // $(".section_17 .screen2").addClass("screenShow");
@@ -1193,7 +1193,7 @@ var utility = {
                         // $(".section_17 .screen2").removeClass("screenShow");
                     }
 
-                    if(index == 18) {
+                    if(index == 19) {
                         utility.section18_timeOut = setTimeout(function(){
                             //$(".section_18 .screen1").addClass("screenHide");
                             //$(".section_18 .screen2").addClass("screenShow");
@@ -1213,7 +1213,7 @@ var utility = {
                         },500);*/
                     }
 
-                    if(index == 19) {    
+                    if(index == 20) {    
                      utility.section19_timeOut = setTimeout(function(){                   
                         $(".section_19 .step2").addClass("active");
                         $(".section_19 .clickContentWrap").addClass("active"); 
@@ -1223,7 +1223,7 @@ var utility = {
                         clearTimeout(utility.section19_timeOut); 
                     }
 
-                    if(index == 21) {
+                    if(index == 22) {
                         utility.section21_timeOut = setTimeout(function(){
                             $(".section_21 .midboxWrap").addClass("moveRight");
                             var showWrapIn = setTimeout(function(){
@@ -1238,7 +1238,7 @@ var utility = {
                         },500);*/
                     }
                     
-                    if(index == 22) {
+                    if(index == 23) {
                           utility.section22_timeOut = setTimeout(function(){
                             $(".section_22 .sec11_halfCircle").addClass("active_on");
                             $(".section_22 .mid_four_container_heading, .section_22 .mid_four_container").addClass("active_on");
@@ -1262,7 +1262,7 @@ var utility = {
                         // },500);
                     }
 
-                    if(index == 23) {
+                    if(index == 24) {
                         utility.section23_timeOut = setTimeout(function(){
                             $(".section_23 .container_inner").addClass("visibleFlow");
                             $(".section_23 .rightboxWrap").addClass("moveRight");
@@ -1279,7 +1279,7 @@ var utility = {
                         },500);*/
                     }
 
-                    if(index == 24) {    
+                    if(index == 25) {    
                      utility.section24_timeOut = setTimeout(function(){                   
                         $(".section_24 .step3").addClass("active");
                         $(".section_24 .clickContentWrap").addClass("active"); 
@@ -1289,7 +1289,7 @@ var utility = {
                         clearTimeout(utility.section24_timeOut); 
                     }
 
-                    if(index == 27) {
+                    if(index == 29) {
                           utility.section27_timeOut = setTimeout(function(){                           
                             $(".section_27 .frstSection,.section_27 .sec17_halfCircle,.section_27 .mentor_div,.section_27 .pot_div,.section_27 .table_div,.section_27 .bottom_strip,.section_27 .callout_div1").addClass("active_on");
                             $(".section_27 .mid_four_container,.forBox").removeClass("active_on");
@@ -1319,7 +1319,7 @@ var utility = {
                         // },500);
                     }
 
-                    if(index == 28) {
+                    if(index == 30) {
                      utility.section28_timeOut = setTimeout(function(){                   
                         $(".section_28 .step4").addClass("active");
                         $(".section_28 .clickContentWrap").addClass("active"); 
@@ -1329,7 +1329,7 @@ var utility = {
                         clearTimeout(utility.section28_timeOut); 
                     }
 
-                    if(index == 31) {
+                    if(index == 33) {
                           utility.section31_timeOut = setTimeout(function(){
                             $(".section_31 .middle_section, .section_31 .bottom_bg, .section_31 .bottomBg2_container").addClass("active_on");
                           },4000);
