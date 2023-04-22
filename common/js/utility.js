@@ -1343,7 +1343,7 @@ var utility = {
                             $(".section_31 .clickContent").hide();*/
                         // },500);
                     }
-                    if(index == 32) {
+                    if(index == 34) {
                         utility.section32_timeOut = setTimeout(function(){
                             $(".section_32 .midboxWrap").addClass("moveRight");
                             var showWrapIn = setTimeout(function(){
@@ -1357,7 +1357,7 @@ var utility = {
                             $(".section_13 .clipboxWrapIn").removeClass("showWrapIn");
                         },500);*/
                     }
-                    if(index == 33) {
+                    if(index == 35) {
                           utility.section33_timeOut = setTimeout(function(){
                             $(".section_33 .middle_section, .section_33 .bottom_bg, .section_33 .bottomBg2_container").addClass("active_on");
                             //$(".section_33 .mid_four_container").removeClass("active_on");
@@ -1373,7 +1373,7 @@ var utility = {
                         // },500);
                     }
 
-                    if(index == 34) {
+                    if(index == 36) {
                          utility.section34_timeOut = setTimeout(function(){
                         $(".section_34 .middle_section2").addClass("move_left");
                         },500)
@@ -1381,7 +1381,7 @@ var utility = {
                         clearTimeout(utility.section34_timeOut);
                     }
 
-                    if(index == 35) {    
+                    if(index == 37) {    
                      utility.section35_timeOut = setTimeout(function(){                   
                         $(".section_35 .step5").addClass("active");
                         $(".section_35 .clickContentWrap").addClass("active"); 
@@ -1391,7 +1391,7 @@ var utility = {
                         clearTimeout(utility.section35_timeOut); 
                     }
 
-                    if(index == 36) {
+                    if(index == 38) {
                           utility.section36_timeOut = setTimeout(function(){
                             $(".section_36 .midboxWrapInUpper").addClass("active_on");
                           },5000);
@@ -1401,7 +1401,7 @@ var utility = {
                          //$(".section_20 .midboxWrapInUpper").removeClass("active_on");
                         // },500);
                     }
-                    if(index == 37) {
+                    if(index == 39) {
                         utility.section37_timeOut = setTimeout(function(){
                             $(".section_37 .midboxWrap").addClass("moveRight");
                             // var showWrapIn = setTimeout(function(){
@@ -1421,7 +1421,7 @@ var utility = {
                             $(".section_37 .clb2").removeClass("showWrapIn");
                         },500);
                     }
-                    if(index == 38) {
+                    if(index == 40) {
                           utility.section38_timeOut = setTimeout(function(){
                             $(".section_38 .sec11_halfCircle, .section_38 .mid_four_container").addClass("active_on");
                             // $(".section_38 .sec21_halfCircle,.section_38 .mentor_div,.section_38 .pot_div,.section_38 .table_div, .section_38 .bottom_strip").addClass("active_on");
@@ -1442,7 +1442,7 @@ var utility = {
                         // },500);
                     } 
 
-                    if(index == 39) {    
+                    if(index == 41) {    
                      utility.section39_timeOut = setTimeout(function(){                   
                         $(".section_39 .step6").addClass("active");
                         $(".section_39 .clickContentWrap").addClass("active"); 
@@ -1452,7 +1452,7 @@ var utility = {
                         clearTimeout(utility.section39_timeOut); 
                     }
 
-                    if(index == 40) {
+                    if(index == 42) {
                           utility.section40_timeOut = setTimeout(function(){
                           //  $(".section_40 .sec22_halfCircle,.section_40 .rightBox").addClass("moveLeft");
                             $(".section_40 .click_div").css("pointer-events","auto");                            
@@ -1470,19 +1470,19 @@ var utility = {
                        // },500);
                     }
 
-                    if(index == 41) {                         
+                    if(index == 43) {                         
                           //$(".section_41 .bottom_strip").addClass("active_on");   
                     }else{ 
 
                     }
 
-                    if(index == 42) {
+                    if(index == 44) {
                           //$(".section_42 .bottom_strip").addClass("active_on");   
                     }else{ 
 
                     }
 
-                    if(index == 43) {
+                    if(index == 45) {
                         utility.section43_timeOut = setTimeout(function(){
                            $(".rightSidebar ul li.downloadWrap").addClass("dwnPulseAnim");
                         },2000);
@@ -1505,7 +1505,7 @@ var utility = {
                     }else{ 
 
                     }
-                    if(index == 19) {
+                    if(index == 20) {
                          setTimeout(function(){
                           $(".section_19 .scale_up").addClass("scale_up_go");                          
                           },1000);  
@@ -1513,7 +1513,7 @@ var utility = {
                     }else{ 
 
                     }
-                    if(index == 24) {
+                    if(index == 25) {
                          setTimeout(function(){
                           $(".section_24 .scale_up").addClass("scale_up_go");                            
                           },1000);  
@@ -1521,7 +1521,7 @@ var utility = {
                     }else{ 
 
                     }
-                    if(index == 28) {
+                    if(index == 30) {
                          setTimeout(function(){
                           $(".section_28 .scale_up").addClass("scale_up_go");                            
                           },1000);  
@@ -1529,7 +1529,7 @@ var utility = {
                     }else{ 
 
                     }
-                    if(index == 35) {
+                    if(index == 37) {
                          setTimeout(function(){
                          $(".section_35 .scale_up").addClass("scale_up_go");                         
                           },1000);  
@@ -1537,7 +1537,7 @@ var utility = {
                     }else{ 
 
                     }
-                    if(index == 39) {
+                    if(index == 41) {
                          setTimeout(function(){
                           $(".section_39 .scale_up").addClass("scale_up_go");                        
                           },1000);  
@@ -1545,7 +1545,7 @@ var utility = {
                     }else{ 
 
                     }
-                    if(index == 43) {
+                    if(index == 45) {
                          setTimeout(function(){
                            $(".section_43 .scale_up").addClass("scale_up_go");
                           },1000);  
