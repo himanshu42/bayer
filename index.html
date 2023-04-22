@@ -31,11 +31,11 @@
     <script>
         $(window).scroll(function(){
         var wh = $(window).height()-50;
-        if($(window).scrollTop() > $('.hhtest').offset().top-wh){
-            $('.hhtest').addClass('zoomer');
-        }
+        // if($(window).scrollTop() > $('.hhtest').offset().top-wh){
+        //     $('.hhtest').addClass('zoomer');
+        // }
         if($(window).scrollTop() > $('.hhtest1').offset().top-wh){
-            $('.hhtest1').addClass('slideDown');
+            $('.hhtest1').addClass.delay(1000).('bounceIn');
             $('.hhtest1').delay(6000).fadeOut();
             $('.whdi').delay(6000).fadeIn();
         }

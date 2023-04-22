@@ -1061,15 +1061,15 @@ var utility = {
                         // },500);
                     }
 
-                    if(index == 4) {
-                        utility.section4_timeOut = setTimeout(function(){
-                            $(".section_4 .txtOne").hide();
-                        },5000);
-                    }else{
-                        clearTimeout(utility.section4_timeOut);
-                    }
+                    // if(index == 4) {
+                    //     utility.section4_timeOut = setTimeout(function(){
+                    //         $(".section_4 .txtOne").hide();
+                    //     },5000);
+                    // }else{
+                    //     clearTimeout(utility.section4_timeOut);
+                    // }
 
-                    if(index == 6) {
+                    if(index == 5) {
                         utility.section6_timeOut = setTimeout(function(){
                         $(".section_6 .middle_section,.section_6 .middle_section2").addClass("move_left");
                         $(".section_6 .middle_section2 .left_box,.section_6 .middle_section2 .to").addClass("move_left1");
@@ -1084,6 +1084,14 @@ var utility = {
                         // $(".section_6 .middle_section2 .right_box").removeClass("move_right");
                         // },500);
                     }
+
+                    /*----------------------------------------------*/
+                    if(index == 6) {
+                        $(".hhtest").addClass("slideDown");
+                    }else{
+                        clearTimeout(utility.section13a_timeOut);                       
+                    }
+                    /*------------------------------------------------*/
 
                     if(index == 7) {
                         $(".section_7 .box1 img").on("click", function(){
@@ -1144,7 +1152,17 @@ var utility = {
                         clearTimeout(utility.section12_timeOut); 
                     }
 
-                    if(index == 16) {
+                    /*--------------------------------*/
+
+                    if(index == 14) {    
+                        $('.hhtest1').addClass('bounce-in-right');
+                        $('.hhtest1').delay(6000).fadeOut();
+                        $('.whdi').delay(6000).fadeIn();
+                    }
+
+                    /*----------------------------------*/
+
+                    if(index == 17) {
                           utility.section11_timeOut = setTimeout(function(){
                             $(".section_16 .sec11_halfCircle,.section_16 .mentor_div,.section_16 .pot_div,.section_16 .table_div, .section_16 .bottom_strip").addClass("active_on");
                             $(".section_16 .mid_four_container_wrapper").removeClass("active_on");
